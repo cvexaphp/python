@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors', 1);
+header('Content-type: application/json');
 
 $baseUrl = 'http://api.weatherstack.com/';
 
